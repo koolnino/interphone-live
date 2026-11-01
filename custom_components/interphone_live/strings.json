@@ -1,0 +1,49 @@
+{
+  "title": "Interphone Live",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer Interphone Live",
+        "description": "Le groupe doit déjà exister dans Music Assistant. Les enceintes choisies doivent correspondre à ses membres pour les commandes de volume.",
+        "data": {
+          "speakers": "Enceintes Music Assistant (hors groupe)",
+          "group": "Groupe facultatif : identifiant media_player exact",
+          "warmup_speakers": "Destinations à préparer (inclure le groupe si nécessaire)",
+          "warmup_seconds": "Durée de préparation en secondes",
+          "auto_resume": "Reprise Spotify expérimentale",
+          "audio_base_url": "Origine HTTP(S) de Home Assistant accessible depuis Music Assistant (facultatif)"
+        }
+      }
+    },
+    "error": {
+      "invalid_speakers": "Choisir au moins une enceinte Music Assistant active.",
+      "invalid_group": "Le groupe doit être une autre entité Music Assistant active.",
+      "invalid_warmup": "Choisir des destinations configurées et une durée entre 0 et 15 secondes.",
+      "invalid_url": "Saisir une origine HTTP(S), sans chemin, identifiants, paramètres ni fragment."
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule configuration est autorisée."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options Interphone Live",
+        "data": {
+          "speakers": "Enceintes Music Assistant (hors groupe)",
+          "group": "Groupe facultatif : identifiant media_player exact",
+          "warmup_speakers": "Destinations à préparer (inclure le groupe si nécessaire)",
+          "warmup_seconds": "Durée de préparation en secondes",
+          "auto_resume": "Reprise Spotify expérimentale",
+          "audio_base_url": "Origine HTTP(S) de Home Assistant accessible depuis Music Assistant (facultatif)"
+        }
+      }
+    },
+    "error": {
+      "invalid_speakers": "Choisir au moins une enceinte Music Assistant active.",
+      "invalid_group": "Le groupe doit être une autre entité Music Assistant active.",
+      "invalid_warmup": "Choisir des destinations configurées et une durée entre 0 et 15 secondes.",
+      "invalid_url": "Saisir une origine HTTP(S), sans chemin, identifiants, paramètres ni fragment."
+    }
+  }
+}

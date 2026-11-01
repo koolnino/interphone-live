@@ -1,0 +1,20 @@
+{
+  "domain": "interphone_live",
+  "name": "Interphone Live",
+  "version": "0.1.0-beta.1",
+  "config_flow": true,
+  "documentation": "https://github.com/koolnino/interphone-live",
+  "issue_tracker": "https://github.com/koolnino/interphone-live/issues",
+  "codeowners": [
+    "@koolnino"
+  ],
+  "dependencies": [
+    "frontend",
+    "http",
+    "music_assistant",
+    "panel_custom",
+    "websocket_api"
+  ],
+  "iot_class": "local_push",
+  "integration_type": "service"
+}
